@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "D-T Fuel Mixer",
+	"description": "Mixes Deuterium and Tritium into D-T Fuel for use in fusion reactors.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "d-t-fuel", "amount": 8.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.2,
+    "item": "tritium-tank",
+		"liquid": {"liquid": "deuterium", "amount": 0.2}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 250 },
+		{ "item": "copper", "amount": 250 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "plastanium", "amount": 200 },
+		{ "item": "surge-alloy", "amount": 75 }
+	],
+	"category": "crafting",
+	"research": "deuterium-extractor"
+}

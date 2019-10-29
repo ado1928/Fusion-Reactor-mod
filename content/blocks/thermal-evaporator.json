@@ -1,0 +1,26 @@
+  {
+	"type": "GenericCrafter",
+	"name": "Thermal Evaporator",
+	"description": "Extracts Lithium from Scrap.",
+	"liquidCapacity": 500,
+	"size": 5,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 180,
+	"updateEffect": "smeltsmoke",
+  "outputItem": {"item": "lithium"},
+	"consumes": {
+		"power": 3.0,
+		"liquid": {"liquid": "water", "amount": 0.25},
+	  "items": {"items" : [{"item": "scrap", "amount": 5}]}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "copper", "amount": 300 },
+		{ "item": "metaglass", "amount": 50 },
+    { "item": "titanium", "amount": 150 },
+    { "item": "plastanium", "amount": 50 }
+	],
+	"category": "crafting",
+  "research": "laser-drill"
+}

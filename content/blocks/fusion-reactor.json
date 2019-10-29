@@ -1,0 +1,26 @@
+{
+	"type": "ImpactReactor",
+	"name": "[cyan]Fusion Reactor",
+	"description": "A very powerful reactor. Runs on D-T Fuel.",
+	"itemDuration": 360,
+	"liquidCapacity": 50,
+	"size": 8,
+	"hasLiquids": true,
+  "powerProduction": 800.0,
+	"consumes": {
+		"power": 50.0,
+		"liquid": {"liquid": "d-t-fuel", "amount": 0.2}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 750 },
+		{ "item": "lithium", "amount": 100 },
+		{ "item": "silicon", "amount": 1000 },
+		{ "item": "phase-fabric", "amount": 250 },
+		{ "item": "lead", "amount": 1250 },
+		{ "item": "titanium", "amount": 700 },
+		{ "item": "plastanium", "amount": 450 },
+		{ "item": "graphene", "amount": 50 }
+	],
+	"category": "power",
+	"research": "impact-reactor"
+}

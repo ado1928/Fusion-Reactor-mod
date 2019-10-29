@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Lithium",
+	"description": "A highly flammable metal. Used to make Li-Ion batteries.",
+	"cost": 2.0,
+	"color": "dcd16b"
+}

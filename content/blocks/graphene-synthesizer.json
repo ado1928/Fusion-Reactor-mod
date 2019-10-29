@@ -1,0 +1,23 @@
+{
+	"type": "GenericCrafter",
+	"name": "Graphene Synthesizer",
+	"description": "Synthesizes Graphene from Graphite",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "graphene"},
+	"size": 2,
+	"hasPower": true,
+	"craftTime": 300,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {"items" : [{"item": "graphite", "amount": 6}]}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 250 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "plastanium", "amount": 100 },
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}

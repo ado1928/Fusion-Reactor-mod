@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Graphene",
+	"description": "A very strong material.",
+	"cost": 3.0,
+	"color": "524E7A"
+}

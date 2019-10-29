@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "Graphene Wall",
+	"description": "A very strong wall.",
+  "health": "6000",
+  "size": 2,
+  "requirements": [
+    { "item": "surge-alloy", "amount": 24 },
+    { "item": "graphene", "amount": 12 }
+  ],
+	"category": "defense",
+	"research": "surge-wall"
+}

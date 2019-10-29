@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Deuterium extractor",
+	"description": "Extracts deuterium from water.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "deuterium", "amount": 3.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.2,
+		"liquid": {"liquid": "water", "amount": 0.5}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "metaglass", "amount": 150 },
+		{ "item": "titanium", "amount": 75 },
+		{ "item": "graphene", "amount": 5 },
+	],
+	"category": "crafting",
+	"research": "oil-extractor"
+}
